@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00-Entity", "00-Entity", "{3DD23259-405B-4369-A0ED-668F3BC0BC46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00_Entity", "00_Entity\00_Entity.csproj", "{64EBA42D-413A-45B0-94E7-891F40639AB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Presentation", "02-Presentation", "{B9F084F1-A73D-41AB-A608-EB0F3015E5B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Presentation", "02_Presentation\02_Presentation.csproj", "{7E59C30A-80C7-4834-9EBC-4AC3E33BA557}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Data Access Layer", "01-Data Access Layer", "{FF8C2143-5325-4B09-BF28-A8364CD86F8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Business Logic Layer", "03-Business Logic Layer", "{685CAB37-7444-4C9E-9EAC-50340265D7CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-DataAccessLayer", "01-DataAccessLayer\01-DataAccessLayer.csproj", "{B2122F28-273C-42FF-A714-784D063AD09A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-BusineesLayer", "03-BusineesLayer\03-BusineesLayer.csproj", "{29523B59-3ABF-47B1-B8E0-A7D56869DFB1}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://blueteamw2.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = 00_Entity\\00_Entity.csproj
+		SccProjectTopLevelParentUniqueName1 = BlueTeam.sln
+		SccProjectName1 = 00_Entity
+		SccLocalPath1 = 00_Entity
+		SccProjectUniqueName2 = 02_Presentation\\02_Presentation.csproj
+		SccProjectTopLevelParentUniqueName2 = BlueTeam.sln
+		SccProjectName2 = 02_Presentation
+		SccLocalPath2 = 02_Presentation
+		SccProjectUniqueName3 = 01-DataAccessLayer\\01-DataAccessLayer.csproj
+		SccProjectTopLevelParentUniqueName3 = BlueTeam.sln
+		SccProjectName3 = 01-DataAccessLayer
+		SccLocalPath3 = 01-DataAccessLayer
+		SccProjectUniqueName4 = 03-BusineesLayer\\03-BusineesLayer.csproj
+		SccProjectTopLevelParentUniqueName4 = BlueTeam.sln
+		SccProjectName4 = 03-BusineesLayer
+		SccLocalPath4 = 03-BusineesLayer
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64EBA42D-413A-45B0-94E7-891F40639AB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64EBA42D-413A-45B0-94E7-891F40639AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64EBA42D-413A-45B0-94E7-891F40639AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64EBA42D-413A-45B0-94E7-891F40639AB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E59C30A-80C7-4834-9EBC-4AC3E33BA557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E59C30A-80C7-4834-9EBC-4AC3E33BA557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E59C30A-80C7-4834-9EBC-4AC3E33BA557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E59C30A-80C7-4834-9EBC-4AC3E33BA557}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2122F28-273C-42FF-A714-784D063AD09A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2122F28-273C-42FF-A714-784D063AD09A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2122F28-273C-42FF-A714-784D063AD09A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2122F28-273C-42FF-A714-784D063AD09A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29523B59-3ABF-47B1-B8E0-A7D56869DFB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29523B59-3ABF-47B1-B8E0-A7D56869DFB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29523B59-3ABF-47B1-B8E0-A7D56869DFB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29523B59-3ABF-47B1-B8E0-A7D56869DFB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{64EBA42D-413A-45B0-94E7-891F40639AB1} = {3DD23259-405B-4369-A0ED-668F3BC0BC46}
+		{7E59C30A-80C7-4834-9EBC-4AC3E33BA557} = {B9F084F1-A73D-41AB-A608-EB0F3015E5B1}
+		{B2122F28-273C-42FF-A714-784D063AD09A} = {FF8C2143-5325-4B09-BF28-A8364CD86F8E}
+		{29523B59-3ABF-47B1-B8E0-A7D56869DFB1} = {685CAB37-7444-4C9E-9EAC-50340265D7CA}
+	EndGlobalSection
+EndGlobal
